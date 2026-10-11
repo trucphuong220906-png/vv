@@ -1,0 +1,6 @@
+{
+  "name": "VẾT VIỆT - Quà Lưu Niệm Việt Nam Hiện Đại",
+  "description": "Thương hiệu quà lưu niệm Việt Nam hiện đại lấy cảm hứng từ nghệ thuật, văn hóa dân gian và di sản truyền thống dành cho giới trẻ và du khách.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

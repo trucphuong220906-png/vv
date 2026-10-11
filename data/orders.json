@@ -1,0 +1,84 @@
+[
+  {
+    "id": "ord-1791737231813",
+    "orderId": "VV-177422",
+    "code": "VV-177422",
+    "customerName": "TEST VẾT VIỆT",
+    "phoneNumber": "0900000000",
+    "phone": "0900000000",
+    "shippingAddress": "TP.HCM",
+    "address": "TP.HCM",
+    "notes": "",
+    "paymentMethod": "COD",
+    "paymentStatus": "paid",
+    "orderStatus": "completed",
+    "status": "completed",
+    "products": [
+      {
+        "product": {
+          "id": "sp-combo-cap",
+          "name": "Combo Cặp Móc Khóa Đờn Ca Tài Tử (Đàn Kìm + Đàn Cò)",
+          "price": 40000
+        },
+        "quantity": 1,
+        "price": 40000
+      }
+    ],
+    "items": [
+      {
+        "product": {
+          "id": "sp-combo-cap",
+          "name": "Combo Cặp Móc Khóa Đờn Ca Tài Tử (Đàn Kìm + Đàn Cò)",
+          "price": 40000
+        },
+        "quantity": 1,
+        "price": 40000
+      }
+    ],
+    "quantity": 1,
+    "totalPrice": 100000,
+    "totalAmount": 100000,
+    "createdAt": "2026-10-11T16:47:11.813Z"
+  },
+  {
+    "id": "ord-test-100k",
+    "orderId": "VV-596278",
+    "code": "VV-596278",
+    "customerName": "Lê Hoàng Yến",
+    "phoneNumber": "0918234567",
+    "phone": "0918234567",
+    "shippingAddress": "45 Lê Duẩn, Quận 1, TP. Hồ Chí Minh",
+    "address": "45 Lê Duẩn, Quận 1, TP. Hồ Chí Minh",
+    "notes": "Đóng gói giấy Dó kèm thiệp chúc",
+    "paymentMethod": "cod",
+    "paymentStatus": "paid",
+    "orderStatus": "completed",
+    "status": "completed",
+    "products": [
+      {
+        "product": {
+          "id": "sp-02",
+          "name": "Bộ Postcard Giấy Dó Thủ Công “Tứ Bình Đông Hồ”",
+          "price": 100000
+        },
+        "quantity": 1,
+        "price": 100000
+      }
+    ],
+    "items": [
+      {
+        "product": {
+          "id": "sp-02",
+          "name": "Bộ Postcard Giấy Dó Thủ Công “Tứ Bình Đông Hồ”",
+          "price": 100000
+        },
+        "quantity": 1,
+        "price": 100000
+      }
+    ],
+    "quantity": 1,
+    "totalPrice": 100000,
+    "totalAmount": 100000,
+    "createdAt": "2026-10-06T09:43:00.000Z"
+  }
+]
