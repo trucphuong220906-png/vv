@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 
 async function startServer() {
   const app = express();
-  const port = 3000;
+  const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 3000;
   const host = '0.0.0.0';
 
   // Body parser
