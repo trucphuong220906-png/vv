@@ -34,12 +34,9 @@ export default function App() {
   // Storefront & Admin Synchronized State with Real Backend Storage
   const [products, setProducts] = useState<Product[]>(() => {
     try {
-      const saved = localStorage.getItem('vetviet_products');
+      const saved = localStorage.getItem('vetviet_products_v4');
       if (saved) {
-        const parsed: Product[] = JSON.parse(saved);
-        if (parsed.some((p) => p.id === 'sp-dankim')) {
-          return parsed;
-        }
+        return JSON.parse(saved);
       }
       return PRODUCTS;
     } catch {
@@ -87,6 +84,8 @@ export default function App() {
     try {
       localStorage.removeItem('vetviet_orders');
       localStorage.removeItem('vetviet_inquiries');
+      localStorage.removeItem('vetviet_products');
+      localStorage.removeItem('vetviet_products_v3');
     } catch {
       // ignore
     }
